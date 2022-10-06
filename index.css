@@ -1,0 +1,31 @@
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+body {
+    font-family: Fredoka;
+    margin: 0;
+    overflow: overlay;
+    overflow-x: hidden;
+}
+
+.navigation {
+    background-color: #141B41;
+}
+
+.heading {
+    font-family: Fredoka One;
+}
+
+a, a:hover, a:active {
+    color: #F8CF7F;
+}
