@@ -28,6 +28,7 @@
     <!-- Page CSS -->
     <style>
         body {
+            overflow-y: hidden;
             background-image: url("../images/home.png");
             background-position: center;
             background-size: cover;
@@ -40,15 +41,6 @@
         .yellow {
           color: #F8CF7F
         }
-
-        .absolute {
-          position: absolute;
-        }
-
-        .relative {
-          position: relative;
-        }
-
     </style>
 </head>
 <body onload="heroMove()">
@@ -57,7 +49,7 @@
       <div id="navigation"></div>
 
       <div class="row align-items-center justify-content-center mt-5">
-          <div class="col p-5 relative" id="heroAnimation">
+          <div class="col p-5 position-relative d-none d-md-block" id="heroAnimation">
             <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_1uKnRo.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop  autoplay></lottie-player>
           </div>
           <div class="col text-center text-white m-5 p-5">
