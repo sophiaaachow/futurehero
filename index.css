@@ -29,3 +29,21 @@ body {
 a, a:hover, a:active {
     color: #F8CF7F;
 }
+
+lottie-player {
+    margin: 0 auto;
+}
+
+iframe, .gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.frameDiv {
+    position: relative;
+    width: 60%;
+    padding-top: 33.75%;
+    left: 50%;
+    transform: translateX(-50%)
+}
