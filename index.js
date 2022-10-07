@@ -22,19 +22,13 @@ navigation.innerHTML = `
                         </li>
                     </ul>
                 </div>
-                <div>
-                <ul class="navbar-nav mb-2 mb-lg-0 me-4">
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://github.com/sophiaaachow/futurehero" target="_blank">
-                            <i class="fa-brands fa-github"></i>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="https://www.figma.com/file/MjLgRlcnahGsHDsfHey4dT/FutureHero?node-id=0%3A1" target="_blank">
-                            <i class="fa-brands fa-figma"></i>
-                        </a>
-                    </li>
-                </ul>
+                <div class="d-flex align-items-center">
+                    <a class="me-3" href="https://github.com/sophiaaachow/futurehero" target="_blank">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                    <a class="me-4" href="https://www.figma.com/file/MjLgRlcnahGsHDsfHey4dT/FutureHero?node-id=0%3A1" target="_blank">
+                        <i class="fa-brands fa-figma"></i>
+                    </a>
                 </div>
             </div>
         </div>
