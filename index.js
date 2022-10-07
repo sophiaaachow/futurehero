@@ -50,3 +50,36 @@ if (page == "whatIsAA") {
     let link = document.getElementById("link2")
     link.classList.add("active")
 }
+
+// Animation Function
+
+var id = null;
+function heroMove() {
+  var elem = document.getElementById("heroAnimation");   
+  var pos = -window.screen.availHeight;
+  var speed = 3;
+  clearInterval(id);
+  id = setInterval(frame, 10);
+  function frame() {
+    if (pos == 0 || pos == 1) {
+        sleep(2000).then(() => {  if (pos < window.screen.availHeight)
+            pos += speed; 
+            elem.style.bottom = pos + 'px';  
+            if (pos >= window.screen.availHeight) {
+                pos = -window.screen.availHeight;
+            }
+        });
+    } else {
+      pos += speed; 
+      elem.style.bottom = pos + 'px'; 
+    }
+
+
+  }
+}
+
+// Sleep Function
+
+function sleep(ms) {
+    return new Promise(resolve => setTimeout(resolve, ms));
+  }
