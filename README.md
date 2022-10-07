@@ -1,10 +1,12 @@
+![Phobias (2)](https://user-images.githubusercontent.com/89060200/194483058-9b33ed45-2536-4505-9f9b-fc04d4ba0624.png)
+
 [![forthebadge](https://forthebadge.com/images/badges/validated-html5.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/uses-css.svg)](https://forthebadge.com)[![forthebadge](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://forthebadge.com)
 
 ### What is FutureHero?
 
 [FutureHero](https://futurehero.herokuapp.com/pages/home.html) aims to promote awareness and information about anticipatory anxiety, including its causes, symptoms and coping methods. Become your own hero today by learning to cope with anticipatory anxiety!
 
-###### Developers
+#### Developers
 
 | Name                  | GitHub                          |
 | --------------------- | ------------------------------- |
