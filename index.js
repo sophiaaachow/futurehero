@@ -5,7 +5,7 @@ let navigation = document.getElementById('navigation')
 navigation.innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navigation">
         <div class="container-fluid">
-            <a class="navbar-brand mx-4" href="index.html">
+            <a class="navbar-brand mx-4" href="futurehero/index.html">
                 <img src="https://api.iconify.design/fa6-regular/hand-back-fist.svg?color=white&width=40" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -15,10 +15,10 @@ navigation.innerHTML = `
                 <div>
                     <ul class="navbar-nav mb-2 mb-lg-0">
                         <li class="nav-item">
-                            <a id='link1' class="nav-link me-3" aria-current="page" href="what-is-aa.html">What is AA?</a>
+                            <a id='link1' class="nav-link me-3" aria-current="page" href="futurehero/what-is-aa.html">What is AA?</a>
                         </li>
                         <li class="nav-item">
-                            <a id='link2' class="nav-link" href="what-can-i-do.html">What can I do?</a>
+                            <a id='link2' class="nav-link" href="futurehero/what-can-i-do.html">What can I do?</a>
                         </li>
                     </ul>
                 </div>

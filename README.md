@@ -4,7 +4,7 @@
 
 ## What is FutureHero?
 
-[FutureHero](https://futurehero.herokuapp.com/pages/home.html) aims to promote awareness and information about anticipatory anxiety, including its causes, symptoms and coping methods. Become your own hero today by learning to cope with anticipatory anxiety!
+[FutureHero](https://sophiaaachow.github.io/futurehero) aims to promote awareness and information about anticipatory anxiety, including its causes, symptoms and coping methods. Become your own hero today by learning to cope with anticipatory anxiety!
 
 ### Developers
 
