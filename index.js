@@ -5,7 +5,7 @@ let navigation = document.getElementById('navigation')
 navigation.innerHTML = `
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top navigation">
         <div class="container-fluid">
-            <a class="navbar-brand mx-4" href="/">
+            <a class="navbar-brand mx-4" href="/futurehero">
                 <img src="https://api.iconify.design/fa6-regular/hand-back-fist.svg?color=white&width=40" />
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
